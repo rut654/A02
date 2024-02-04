@@ -62,7 +62,7 @@ If you don’t have a git repository, then you can create one by using git init 
 **How to setup VSCODE:**
 <br>
 Visual Studio Code (VSCode) is a lightweight, open-source source code editor developed by Microsoft.
-1.	Download VSCode: Go to the Visual Studio Code website and download the installer for your operating system (Windows, macOS, or Linux).
+1.	Download VSCode: Go to the Visual Studio Code website and download the installer for your operating system (Windows, macOS, or Linux) at https://code.visualstudio.com/.
 2.	Install VSCode: Once the installer is downloaded, run it and follow the on-screen instructions to install VSCode on your system.
 3.	Launch VSCode: After installation, launch VSCode from your application menu or by double-clicking the VSCode icon on your desktop. 
 4.	Extensions: VSCode supports extensions that enhance its functionality for various programming languages, frameworks, and tools. To install extensions, click on the Extensions view icon on the Sidebar, then search for the extensions you want to install. 
@@ -83,4 +83,12 @@ Visual Studio Code (VSCode) is a lightweight, open-source source code editor dev
 11. **Remote**- A remote repository, is hosted on a remote server (e.g., GitHub, GitLab) and serves as a centralized location for collaborating with others and sharing your code. You can push changes from your local repository to a remote repository and pull changes from the remote repository to your local one.
 12. **Repository**- A repository in Git is essentially a directory or storage space where your project files and version control information are stored. It's a central location where Git can manage and track changes to your project's files over time.
 
+
+References:
+<br>
+1. Microsoft (Ed.). (2021, November 3). Visual studio code - code editing. redefined. RSS. https://code.visualstudio.com/ 
+2.	GitHub (2019) GitHub Guides Tutorial. Retrieved  March 19, 2019, from
+ https://guides.github.com/activities/hello-world/
+3.	Beer, B. (2018). Introducing GitHub. 2ed. O’Reilly Press.
+4.	Git. (n.d.). https://git-scm.com/ 
 
