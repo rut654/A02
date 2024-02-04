@@ -84,7 +84,7 @@ Visual Studio Code (VSCode) is a lightweight, open-source source code editor dev
 12. **Repository**- A repository in Git is essentially a directory or storage space where your project files and version control information are stored. It's a central location where Git can manage and track changes to your project's files over time.
 
 
-References:
+**References**:
 <br>
 1. Microsoft (Ed.). (2021, November 3). Visual studio code - code editing. redefined. RSS. https://code.visualstudio.com/ 
 2.	GitHub (2019) GitHub Guides Tutorial. Retrieved  March 19, 2019, from
