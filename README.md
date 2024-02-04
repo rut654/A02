@@ -1,6 +1,7 @@
 # A02
 
 **How to setup Github:**
+<br>
 
 GitHub is a website used to track changes in source codes and host your repositories online.  
 1.	Visit the Github website at **https://github.com**. If you have an account, click sign in  or click sign up  to create an account.
@@ -17,7 +18,7 @@ On GitHub, you can go to your profile, and click on the second tab repositories.
 8.	Once done click **Create repository**.
 
 **How to setup Git:**
-
+<br>
 Git is a free open-source version control system that allows to create projects and teams to collaborate with each other. Programmers can make iterative changes to their code and trace back changes they saved.   
 1.	Download Git from the website **https://git-scm.com/downloads**and select the OS you are using. 
 2.	Follow the prompt for the installation instructions.
@@ -41,23 +42,25 @@ If you don’t have a git repository, then you can create one by using git init 
 17.	If you run into any conflict, then you have to manually resolve the conflict and then merge the changes.
 
 **General GIT commands:**
-**git init**: Initializes a new Git repository in the current directory.
-**git clone [url]**: Clones an existing Git repository from a remote server to your local machine.
-**git add [file]**: Adds a file or changes to the staging area, preparing them to be committed.
-**git commit -m "[commit message]"**: Commits the changes in the staging area to the local repository with a descriptive commit message.
-**git status**: Displays the status of the working directory, showing which files are modified, staged, or untracked.
-**git push**: Pushes committed changes from your local repository to a remote repository.
-**git pull**: Fetches changes from a remote repository and merges them into the local branch.
-**git branch**: Lists all local branches in the repository.
-**git checkout [branch name]**: Switches to the specified branch.
-**git merge [branch name]**: Merges changes from the specified branch into the current branch.
-**git remote**: Lists the remote repositories associated with the local repository.
-**git log**: Displays a history of commits in the repository.
-**git diff**: Shows the differences between changes in the working directory, staging area, and the last commit.
-**git reset [file]**: Removes a file from the staging area, preserving its changes in the working directory.
-**git stash**: Temporarily shelves changes in the working directory, allowing you to switch branches or perform other tasks.
+<br>
+1. **git init**: Initializes a new Git repository in the current directory.
+2. **git clone [url]**: Clones an existing Git repository from a remote server to your local machine.
+3. **git add [file]**: Adds a file or changes to the staging area, preparing them to be committed.
+4. **git commit -m "[commit message]"**: Commits the changes in the staging area to the local repository with a descriptive commit message.
+5. **git status**: Displays the status of the working directory, showing which files are modified, staged, or untracked.
+6. **git push**: Pushes committed changes from your local repository to a remote repository.
+7. **git pull**: Fetches changes from a remote repository and merges them into the local branch.
+8. **git branch**: Lists all local branches in the repository.
+9. **git checkout [branch name]**: Switches to the specified branch.
+10. **git merge [branch name]**: Merges changes from the specified branch into the current branch.
+11. **git remote**: Lists the remote repositories associated with the local repository.
+12. **git log**: Displays a history of commits in the repository.
+13. **git diff**: Shows the differences between changes in the working directory, staging area, and the last commit.
+14. **git reset [file]**: Removes a file from the staging area, preserving its changes in the working directory.
+15. **git stash**: Temporarily shelves changes in the working directory, allowing you to switch branches or perform other tasks.
 
 **How to setup VSCODE:**
+<br>
 Visual Studio Code (VSCode) is a lightweight, open-source source code editor developed by Microsoft.
 1.	Download VSCode: Go to the Visual Studio Code website and download the installer for your operating system (Windows, macOS, or Linux).
 2.	Install VSCode: Once the installer is downloaded, run it and follow the on-screen instructions to install VSCode on your system.
@@ -66,17 +69,18 @@ Visual Studio Code (VSCode) is a lightweight, open-source source code editor dev
 5.	Integrating with Git: Git can be integrated with VSCode. Install Git on your system and then configure VSCode to use Git. VSCode provides Git integration allowing you to perform common Git operations like commit, push, pull, and merge directly from the editor.
 
 **GLOSSARY:**
-**Branch** - It is where the code gets stored, pushed, or pulled from. 
-**Clone**- Copies a repository that can be hosted anywhere or host locally onto a machine
-**Commit**- Saves the files /changes to git. 
-**Fetch**- Retrieves the latest changes from a remote repository (such as GitHub, GitLab) to your local repository. However, fetching doesn't automatically merge these changes into your local branch.
-**GIT**- A free open-source version control system that allows to create projects and teams to collaborate with each other. Programmers can make iterative changes to their code and trace back changes they saved.   
-**Github**- A website used to track changes in source codes and host your repositories online.  
-**Merge**- It is the process of combining the changes from one branch (the source branch) into another branch (the target branch). This brings the changes made in the source branch into the target branch's history.
-**Merge Conflict** - A merge conflict occurs when Git is unable to automatically merge the changes from one branch into another due to conflicting changes in the same part of a file. Conflict arises when two different branches modify the same line(s) of code in conflicting ways, or when one branch deletes a file while the other branch modifies it. When a merge conflict occurs, Git marks the conflicted areas in the affected files and inserts special markers. Resolving a merge conflict involves manually editing the conflicted files to remove the markers and reconcile the conflicting changes.
-**Push**- Uploads git commits to a remote repository 
-**Pull**- Downloads git commits and changes to the local repository
-**Remote**- A remote repository, is hosted on a remote server (e.g., GitHub, GitLab) and serves as a centralized location for collaborating with others and sharing your code. You can push changes from your local repository to a remote repository and pull changes from the remote repository to your local one.
-**Repository**- A repository in Git is essentially a directory or storage space where your project files and version control information are stored. It's a central location where Git can manage and track changes to your project's files over time.
+<br>
+1. **Branch** - It is where the code gets stored, pushed, or pulled from. 
+2. **Clone**- Copies a repository that can be hosted anywhere or host locally onto a machine
+3. **Commit**- Saves the files /changes to git. 
+4. **Fetch**- Retrieves the latest changes from a remote repository (such as GitHub, GitLab) to your local repository. However, fetching doesn't automatically merge these changes into your local branch.
+5. **GIT**- A free open-source version control system that allows to create projects and teams to collaborate with each other. Programmers can make iterative changes to their code and trace back changes they saved.   
+6. **Github**- A website used to track changes in source codes and host your repositories online.  
+7. **Merge**- It is the process of combining the changes from one branch (the source branch) into another branch (the target branch). This brings the changes made in the source branch into the target branch's history.
+8. **Merge Conflict** - A merge conflict occurs when Git is unable to automatically merge the changes from one branch into another due to conflicting changes in the same part of a file. Conflict arises when two different branches modify the same line(s) of code in conflicting ways, or when one branch deletes a file while the other branch modifies it. When a merge conflict occurs, Git marks the conflicted areas in the affected files and inserts special markers. Resolving a merge conflict involves manually editing the conflicted files to remove the markers and reconcile the conflicting changes.
+9. **Push**- Uploads git commits to a remote repository 
+10. **Pull**- Downloads git commits and changes to the local repository
+11. **Remote**- A remote repository, is hosted on a remote server (e.g., GitHub, GitLab) and serves as a centralized location for collaborating with others and sharing your code. You can push changes from your local repository to a remote repository and pull changes from the remote repository to your local one.
+12. **Repository**- A repository in Git is essentially a directory or storage space where your project files and version control information are stored. It's a central location where Git can manage and track changes to your project's files over time.
 
 
