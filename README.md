@@ -70,18 +70,12 @@ Visual Studio Code (VSCode) is a lightweight, open-source source code editor dev
 
 **GLOSSARY:**
 <br>
-1. **Branch** - It is where the code gets stored, pushed, or pulled from. 
-2. **Clone**- Copies a repository that can be hosted anywhere or host locally onto a machine
-3. **Commit**- Saves the files /changes to git. 
-4. **Fetch**- Retrieves the latest changes from a remote repository (such as GitHub, GitLab) to your local repository. However, fetching doesn't automatically merge these changes into your local branch.
-5. **GIT**- A free open-source version control system that allows to create projects and teams to collaborate with each other. Programmers can make iterative changes to their code and trace back changes they saved.   
-6. **Github**- A website used to track changes in source codes and host your repositories online.  
-7. **Merge**- It is the process of combining the changes from one branch (the source branch) into another branch (the target branch). This brings the changes made in the source branch into the target branch's history.
-8. **Merge Conflict** - A merge conflict occurs when Git is unable to automatically merge the changes from one branch into another due to conflicting changes in the same part of a file. Conflict arises when two different branches modify the same line(s) of code in conflicting ways, or when one branch deletes a file while the other branch modifies it. When a merge conflict occurs, Git marks the conflicted areas in the affected files and inserts special markers. Resolving a merge conflict involves manually editing the conflicted files to remove the markers and reconcile the conflicting changes.
-9. **Push**- Uploads git commits to a remote repository 
-10. **Pull**- Downloads git commits and changes to the local repository
-11. **Remote**- A remote repository, is hosted on a remote server (e.g., GitHub, GitLab) and serves as a centralized location for collaborating with others and sharing your code. You can push changes from your local repository to a remote repository and pull changes from the remote repository to your local one.
-12. **Repository**- A repository in Git is essentially a directory or storage space where your project files and version control information are stored. It's a central location where Git can manage and track changes to your project's files over time.
+1. **Branch** - When you create a new branch, you create a new pointer to the current commit. Branches allow developers to work on different features or bug fixes independently without affecting the main codebase. Once changes in a branch are complete, they can be merged back into the main branch.
+2. **Clone**- Cloning a repository in Git means creating a copy of an existing Git repository on your local machine. This allows you to work on the project locally and make changes. Once done it can be merged into the original repository.
+3. **Commit**- When you commit changes in Git, those changes get saved to the repository's history. A commit in Git is a snapshot of changes made to the repository at a particular point in time.
+4. **Fetch**- Retrieves the latest changes from a remote repository (such as GitHub, GitLab) to your local repository. However, fetching doesn't automatically merge these changes into your local branch. Fetching updates your remote-tracking branches so you can see what other developers have been working on.
+5. **GIT**- A free open-source distributed version control system. It is used for tracking changes in source code during software development. It allows multiple developers to work on the same project concurrently and merge their changes seamlessly.
+6. **Github**- GitHub is a web-based platform built on top of Git. It provides hosting for software development projects, version control and collaboration tools. GitHub is used for open-source projects as well as private repositories. Repositories can be hosted online.
 
 
 **References**:
